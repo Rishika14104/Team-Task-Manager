@@ -76,6 +76,6 @@ Track progress
 
 1. Backend integration (Node.js + MongoDB)
 2. Task assignment to users
-3. otifications system
+3. Notifications system
 4. Drag and drop task management
 5. Authentication using JWT
