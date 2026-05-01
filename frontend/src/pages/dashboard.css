@@ -1,0 +1,149 @@
+
+/* =========================
+   GLOBAL PAGE STYLE
+========================= */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+.container {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* =========================
+   TITLE
+========================= */
+h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* =========================
+   USER INFO BOX
+========================= */
+.userBox {
+  background: #ffffff;
+  padding: 15px;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   CARD (PROJECT CREATION)
+========================= */
+.card {
+  background: white;
+  padding: 20px;
+  width: 360px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   PROJECT CARD
+========================= */
+.projectCard {
+  background: white;
+  padding: 15px;
+  margin: 15px auto;
+  width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.projectCard:hover {
+  transform: scale(1.01);
+}
+
+/* =========================
+   INPUT BOX
+========================= */
+.input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #3498db;
+}
+
+/* smaller input for tasks */
+.small {
+  width: 65%;
+}
+
+/* =========================
+   BUTTON STYLE
+========================= */
+.btn {
+  padding: 8px 15px;
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2980b9;
+}
+
+/* smaller button */
+.smallBtn {
+  padding: 6px 10px;
+}
+
+/* =========================
+   TEXT STYLES
+========================= */
+h2 {
+  color: #34495e;
+}
+
+h3 {
+  margin: 5px;
+  color: #2c3e50;
+}
+
+p {
+  margin: 5px;
+  color: #555;
+}
+
+/* =========================
+   TASK BOX
+========================= */
+.taskBox {
+  background: #ecf0f1;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* =========================
+   EMPTY MESSAGE
+========================= */
+.empty {
+  color: gray;
+  font-style: italic;
+}
